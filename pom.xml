@@ -7,6 +7,10 @@
     <groupId>ca.saultcollege</groupId>
     <artifactId>CSD121-25S</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Lab-2</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>24</maven.compiler.source>
