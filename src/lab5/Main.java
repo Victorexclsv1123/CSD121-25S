@@ -1,10 +1,11 @@
-package tictactoe;
+// File: lab5/Main.java
+package lab5;
 
-import tictactoe.game.TicTacToeGame;
-import tictactoe.ui.Console;
+import lab5.game.TicTacToeGame;
+import lab5.ui.Console;
 
-import static tictactoe.game.PlayerToken.O;
-import static tictactoe.game.PlayerToken.X;
+import static lab5.game.PlayerToken.O;
+import static lab5.game.PlayerToken.X;
 
 public class Main {
 
@@ -16,7 +17,8 @@ public class Main {
                 - To play as a human, just enter a name
                 - To have the player played by the computer enter @ followed by one of the following names:
                   - TODO: Add the names of the computer players you have implemented here!
-                """);
+                  - For example: @Linus, @Randy, @Circe, @Omola, @Optimus
+                """); // Added example for clarity
         var player1 = Console.promptForPlayer(X);
         var player2 = Console.promptForPlayer(O);
         var game = new TicTacToeGame(player1, player2);
